@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "major-projec"
+version = "0.1.0"
+description = ""
+authors = ["sushil79g <sushil@optible.ai>"]
+readme = "README.md"
+packages = [{include = "major_projec"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+statsmodels = "^0.14.0"
+matplotlib = "^3.8.0"
+numpy = "^1.26.1"
+scikit-learn = "^1.3.1"
+tqdm = "^4.66.1"
+prophet = "^1.1.5"
+python-levenshtein = "^0.23.0"
+sentencepiece = "^0.1.99"
+transformers = "^4.34.0"
+datasets = "^2.14.5"
+accelerate = "^0.23.0"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
